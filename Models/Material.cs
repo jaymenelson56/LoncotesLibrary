@@ -13,5 +13,6 @@ public class Material
     [Required]
     public int GenreId { get; set; }
     public Genre? Genre { get; set; }
+    public List<Checkout>? Checkouts { get; set;}
     public DateTime? OutOfCirculationSince { get; set; }
 }
