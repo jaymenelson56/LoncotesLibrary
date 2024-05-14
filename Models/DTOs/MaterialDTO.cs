@@ -8,6 +8,7 @@ namespace Library.Models.DTO
         public MaterialTypeDTO MaterialType { get; set; }
         public int GenreId { get; set; }
         public GenreDTO Genre { get; set; }
+        public List<CheckoutDTO>? Checkouts { get; set;}
         public DateTime? OutOfCirculationSince { get; set; }
     }
 }
